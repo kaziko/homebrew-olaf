@@ -1,8 +1,6 @@
 class Olaf < Formula
   desc "Codebase context engine for Claude Code — MCP server for AI agents"
   homepage "https://github.com/kaziko/olaf-memory-context-engine"
-  version "0.1.0"
-
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.1.0/olaf-aarch64-apple-darwin"
@@ -32,6 +30,6 @@ class Olaf < Formula
   end
 
   test do
-    system "#{bin}/olaf", "--help"
+    system bin/"olaf", "--help"
   end
 end

@@ -3,21 +3,21 @@ class Olaf < Formula
   homepage "https://github.com/kaziko/olaf-memory-context-engine"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.6.1/olaf-aarch64-apple-darwin"
-      sha256 "5c14eb5f5ea4ab1b29e789445d990810da21635c91551b30dc32affce5b5ad23"
+      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.7.0/olaf-aarch64-apple-darwin"
+      sha256 "dc56e43caf12f60707180b3780f4fd444e1892be6f6919364af7e6013acf3aea"
     else
-      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.6.1/olaf-x86_64-apple-darwin"
-      sha256 "e2fb5b060838310f8cea8b9fa2c54ffb6b3aa32e1efb5d311aea29e2bd10f071"
+      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.7.0/olaf-x86_64-apple-darwin"
+      sha256 "5b944250cd1724ac996465b1cca68b9e21006f9dde86f83c4fee6b3022b0935f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.6.1/olaf-aarch64-unknown-linux-musl"
-      sha256 "85410a453c9aa076ae5140835dc84aaf6e64c4d1a788304a588240199c57b1ef"
+      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.7.0/olaf-aarch64-unknown-linux-musl"
+      sha256 "7268c0adc3c0df09cab74da0e869b6d116c1587b786668de4966c9fef6550261"
     else
-      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.6.1/olaf-x86_64-unknown-linux-musl"
-      sha256 "f8f1a635ec421dea5c376aba261d39f41655bc81091b531bb2f12130d1829996"
+      url "https://github.com/kaziko/olaf-memory-context-engine/releases/download/v0.7.0/olaf-x86_64-unknown-linux-musl"
+      sha256 "7cff0e97a0bfab22a15473a095cfa0604634598baf960d0ac01461c46b00fdeb"
     end
   end
 
